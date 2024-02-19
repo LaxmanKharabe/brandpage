@@ -1,4 +1,4 @@
-
+import { ButtonsComponent } from "./buttons";
 const Navigation = () => {
     return (
         <nav className='nav-container container'>
@@ -12,8 +12,7 @@ const Navigation = () => {
                 <li href="#">About</li>
                 <li href="#">Contact</li>
             </ul>
-
-            <button className='btn'>Login</button>
+            <ButtonsComponent stylename="btn" text="Login"/>
         </nav>
     )
 }

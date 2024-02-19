@@ -84,10 +84,10 @@ body{
   padding: 4px 11px 15px 12px;
   border: 2px solid var(--red);
 }
-.hero-btn .btn:nth-child(2){
+.grayStyle{
   background-color: transparent;
   color: var(--gray);
-  border: 2px solid var(--gray);
+  border: 2px solid var(--gray) !important;
 }
 .get-products p{
   font-size: 16px;
@@ -127,4 +127,40 @@ body{
   .nav-container{
     margin-top: 20px !important;
   }
+}
+
+
+
+
+
+/* ===================== New project ======================*/
+.app{
+  background-color: lightgray;
+  /* height: 100vh; */
+}
+.bi-caret-left{
+  font-size: 20px !important;
+}
+.text-gray{
+  color: gray;
+}
+.fs7{
+  font-size: 13px;
+}
+.mob p.ms-3{
+  margin-top: 0 !important;
+}
+.font-bold{
+  font-weight: bold;
+}
+.sltBox{
+  width: 100px;
+  height: 20px;
+  
+}
+.brandBox{
+  align-items: center !important;
+}
+.form-check-input:hover, .form-check-label:hover{
+  cursor: pointer;
 }

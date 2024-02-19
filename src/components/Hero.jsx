@@ -1,3 +1,4 @@
+import { ButtonsComponent } from "./buttons";
 const HeroSection =()=>{
     return(
         <main className="hero-section container">
@@ -8,8 +9,8 @@ const HeroSection =()=>{
                     YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.
                 </p>
                 <div className="hero-btn">
-                    <button className="btn">Shop Now</button>
-                    <button className="btn">Category</button>
+                    <ButtonsComponent stylename="btn" text="Shope Now"/>
+                    <ButtonsComponent stylename="btn grayStyle" text="Category"/>
                 </div>
                 <div className="get-products">
                     <p>Also Available On</p>

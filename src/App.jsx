@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Navigation from './components/navigation';
-import HeroSection from './components/Hero';
-
+import NavBar from './components/navBar';
+import Sort from './components/sort';
 
 function App() {
   return (
-    <div>
-      <Navigation />
-      <HeroSection />
+    <div className='app'>
+      <NavBar />
+      <Sort />
     </div>
   );
 }
